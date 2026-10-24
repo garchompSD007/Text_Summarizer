@@ -1,0 +1,14 @@
+# Virtual environments (common naming conventions)
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode (compiled files)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / Secrets (Never commit these!)
+.env
